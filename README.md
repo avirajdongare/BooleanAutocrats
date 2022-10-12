@@ -1,7 +1,6 @@
 # BooleanAutocrats
 
-![image](https://user-images.githubusercontent.com/77196053/194396922-796d7602-1d2b-4fd1-bc17-63fb7d38c50f.png)
-![Picsart_22-10-07_00-53-27-311](https://user-images.githubusercontent.com/77196053/194401092-6591cde3-887d-4158-b285-0af0065788bd.jpg)
+![image](https://user-images.githubusercontent.com/77196053/195439747-3d2600b0-df06-43fc-9dab-534a9e62616e.png)![Picsart_22-10-07_00-53-27-311](https://user-images.githubusercontent.com/77196053/194401092-6591cde3-887d-4158-b285-0af0065788bd.jpg)
 
 This Repository is a collection of scripts, games, bots, scraper and tools written in python, C, C++, Java, JavaScript etc. 
 
