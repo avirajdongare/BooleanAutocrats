@@ -4,9 +4,9 @@ import time
 # Initial Steps to invite in the game:
 print("\nWelcome to the Hangman game\n")
 name = input("Enter your name: ")
-print("Hello " + name + "! Best of Luck!")
+print("Hello there," + name + "! Best of Luck!")
 time.sleep(1)
-print("The game is about to start!\n Let's play Hangman!")
+print("The game is about to start!\nLet's play Hangman!!")
 time.sleep(1)
 
 
@@ -51,7 +51,7 @@ def hangman():
     guess = input("This is the Hangman Word: " + display + " Enter your guess: \n")
     guess = guess.strip()
     if len(guess.strip()) == 0 or len(guess.strip()) >= 2 or guess <= "9":
-        print("Invalid Input, Try a letter\n")
+        print("Invalid Input, Try again using a letter\n")
         hangman()
 
 
@@ -132,3 +132,13 @@ def hangman():
 
     if word == '_' * length:
         print("Congrats! You have guessed the word correctly!")
+        play_loop()
+
+    elif count != limit:
+        hangman()
+
+
+main()
+
+
+hangman()
