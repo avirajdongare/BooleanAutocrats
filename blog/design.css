@@ -6,7 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #ebf2ff;
+  background-color: #afc5ee;
 }
 
 .card-img-top {
@@ -17,4 +17,12 @@ body {
 
 .place__holder__image {
   width: 100%;
+}
+
+h1 {
+  color: blue;
+}
+p {
+font-size: large;
+font-weight: bold;
 }
